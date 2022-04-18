@@ -1,0 +1,124 @@
+.master {
+  width: 1000px;
+  height: 3000x;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: start;
+}
+
+.post_card_frame {
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  max-width: 360px;
+  height: 385px;
+  box-shadow: 1px 1px 12px grey;
+  margin-top: 5px;
+  min-width: 180px;
+}
+
+.post_card_frame * {
+  color: rgb(41, 61, 129);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.name_and_connection_time {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  padding-top: 15px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_picture {
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  margin-top: 1px;
+  vertical-align: middle;
+  justify-content: start;
+}
+
+.network_check {
+  position: relative;
+  top: -12px;
+  right: 8px;
+  width: 7px;
+  height: 7px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-decoration: none;
+  margin-left: 13px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 11.75px;
+  color: #172c4c;
+}
+
+.last_connection_time {
+  font-size: 10.75px;
+  color: #7a8699;
+  font-weight: bold;
+}
+
+.post_text {
+  max-width: 100%;
+  height: 60px;
+  overflow: hidden;
+  font-size: 12.25px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.post_image {
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+}
+
+.post_image img {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like_and_share_buttons {
+  max-width: 100%;
+  height: 10%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  align-items: center;
+}
+
+.like_and_share_buttons a {
+  color: #5e6d83;
+}
+
+.like_and_share_buttons img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-left: 16px;
+  margin-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
